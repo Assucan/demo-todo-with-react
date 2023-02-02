@@ -6,7 +6,7 @@ import { useGetUser } from "./hooks";
 
 function App() {
   // eslint-disable-next-line
-  const [{ user, isLoading, isError }, dispatch] = useGetUser();
+  const [{ user, isLoading, isError }, dispatch] = useGetUser(;
 
   return (
     <BrowserRouter>
